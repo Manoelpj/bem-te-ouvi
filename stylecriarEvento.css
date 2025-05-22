@@ -19,6 +19,14 @@ h1#logo{/* tag TEMPORARIA */
 
 }
 
+a{
+    text-decoration: none;  
+    color: white;
+}
+a:hover{
+    color: rebeccapurple;
+}
+
 input{ /* tag */
     border: 0px solid blue;
     border-radius: 18px;
@@ -32,8 +40,7 @@ input{ /* tag */
 }
 
 nav{
-    background-image: url(assests/backgroundVI.jpg);
-    border: 1px solid blue;
+    background-image: url(assets/backgroundTLOU3.jpg);
     display: flex;
     justify-content: space-between;
 }
@@ -46,16 +53,27 @@ nav{
 } */
 
 section#perfilCriarEvento>h2{
-    background-color: blue;
+    /* background-color: blue; */
+
     align-items: center;
+    display: flex;
+    flex-direction: column;
 }
 
 img#imgPerfilEvento{ /* id */
+    margin-top: 3em;
     width: 10em;
     border-radius: 5em;
+    
 }
 
-.iconRedesSociais {
-  width: 20px;
-  height: 20px;
+section#redesSociais{
+    margin-top: 240px;
+
+}
+
+img.iconRedesSociais {
+
+    width: 20px;    
+    height: 20px;
 }
