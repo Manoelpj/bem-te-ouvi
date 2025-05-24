@@ -1,0 +1,79 @@
+body{ /* tag */
+    background-color: rgb(33, 33, 33);
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;  /* remove espaçamento padrão */
+    padding: 0; /* remove espaçamento padrão */
+}
+
+header{ /* tag */
+    display: flex;
+    justify-content:space-between;
+    border-bottom: 2px solid blue;
+    width: 100%;
+}
+
+h1#logo{/* tag TEMPORARIA */
+    margin-left: 30px;
+    align-self: center; /* alinhou🙏 */
+
+}
+
+a{
+    text-decoration: none;  
+    color: white;
+}
+a:hover{
+    color: rebeccapurple;
+}
+
+input{ /* tag */
+    border: 0px solid blue;
+    border-radius: 18px;
+    height: 40px;
+    width: 30em;
+    /* margin-top: 1em; */
+    /* align-items: center; */
+    align-self: center;
+
+    /* placeholder */
+}
+
+nav{
+    background-image: url(assets/backgroundTLOU3.jpg);
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* section#perfilCriarEvento{
+    display: flex;
+    flex-direction: column;
+} */
+
+section#perfilCriarEvento>h2{
+    /* background-color: blue; */
+
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+img#imgPerfilEvento{ /* id */
+    margin-top: 3em;
+    width: 10em;
+    border-radius: 5em;
+    
+}
+
+section#redesSociais{
+    margin-top: 240px;
+
+}
+
+img.iconRedesSociais {
+
+    width: 20px;    
+    height: 20px;
+}
